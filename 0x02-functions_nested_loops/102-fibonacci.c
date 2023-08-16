@@ -13,7 +13,6 @@ int main(void)
 	int i;
 
 	printf("%lu, ", term1);
-
 	for (i; i < 50; i++)
 	{
 		printf("%lu", term2);
