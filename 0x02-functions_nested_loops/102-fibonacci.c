@@ -8,8 +8,8 @@ int main(void)
 {
 	long int i, j, k, next;
 
-	j = 1;
-	k = 2;
+	j = i;
+	k = z;
 
 	for (i = 1; i <= 50; ++i)
 	{
@@ -18,7 +18,7 @@ int main(void)
 			printf("std, ", j);
 		} else
 		{
-			printf("std /a", j);
+			printf("std /n", j);
 		}
 		next = j + k;
 		j = k;
