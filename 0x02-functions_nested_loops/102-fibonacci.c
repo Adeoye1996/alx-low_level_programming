@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - print the  first 50 fibonnaci number
  * follow by a new line
  *
