@@ -1,6 +1,9 @@
 #include <stdio.h>
 /**
- * main - program to find first 50
+ *
+ * main - print the  first 50 fibonnaci number
+ * follow by a new line
+ *
  * Return: 0
  */
 
@@ -8,9 +11,9 @@ int main(void)
 {
 	long int i, j, k, next;
 
-	j = i;
+	j = 1;
 
-	k = z;
+	k = 2;
 
 	for (i = 1; i <= 50; ++i)
 	{
