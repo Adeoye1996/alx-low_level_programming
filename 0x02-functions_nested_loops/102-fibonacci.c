@@ -9,16 +9,17 @@ int main(void)
 	long int i, j, k, next;
 
 	j = i;
+
 	k = z;
 
 	for (i = 1; i <= 50; ++i)
 	{
 		if (j != 20365011074)
 		{
-			printf("std, ", j);
+			printf("%ld, ", j);
 		} else
 		{
-			printf("std /n", j);
+			printf("%ld\n", j);
 		}
 		next = j + k;
 		j = k;
