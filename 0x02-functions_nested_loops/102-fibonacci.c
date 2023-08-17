@@ -6,22 +6,23 @@
 
 int main(void)
 {
-	unsigned long int term1 = 1;
-	unsigned long int term2 = 2;
-	unsigned long int next;
+	long int i, j, k, next;
 
-	int i;
+	j = 1;
+	k = 2;
 
-	printf("%lu, ", term1);
-	for (i; i < 50; i++)
+	for (i = 1; i <= 50; ++i)
 	{
-		printf("%lu", term2);
-		next = term1 + term2;
-		term1 = term2;
-		term2 = next;
-		if (i != 49)
-			printf(", ");
+		if (j != 20365011074)
+		{
+			printf("std, ", j);
+		} else
+		{
+			printf("std /a", j);
+		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	printf("\n");
 	return (0);
 }
