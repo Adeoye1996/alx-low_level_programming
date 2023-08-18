@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - find and print
+ * main - find and print number
  * follow by a new line
- * Return : 0
+ *
+ * Return: 0
  */
 int main(void)
 {
@@ -23,6 +24,6 @@ int main(void)
 		j = k;
 		k = next;
 	}
-	prinf("%lu\n", sum)
-		return (0);
+	prinf("%lu\n", sum
+			return (0);
 }
