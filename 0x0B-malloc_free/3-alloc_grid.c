@@ -7,10 +7,11 @@
  * Return: pointer to 2 dim. array
  */
 int **alloc_grid(int width, int height)
+
 {
 	int **mee;
 
-	int x,y;
+	int x, y;
 
 	if (width <= 0 || height <= 0)
 
@@ -40,7 +41,6 @@ int **alloc_grid(int width, int height)
 }
 
 for (x = 0; x < height; x++)
-
 {
 	for (y = 0; y < width; y++)
 
@@ -48,5 +48,4 @@ for (x = 0; x < height; x++)
 }
 
 return (mee);
-
 }
