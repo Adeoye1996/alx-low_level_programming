@@ -16,8 +16,9 @@ int is_digit(char *s)
 
 	{
 		if (s[i] < '0' || s[i] > '9')
-	
+
 			return (0);
+
 		i++;
 	}
 
@@ -98,14 +99,10 @@ int main(int argc, char *argv[])
 
 			result[len1 + len2 + 1] += carry;
 	}
-
 	for (i = 0; i < len - 1; i++)
-
 	{
 		if (result[i])
-
-		a = 1;
-
+			a = 1;
 		if (a)
 			_putchar(result[i] + '0');
 	}
