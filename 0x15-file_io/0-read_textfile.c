@@ -6,7 +6,7 @@
  * text file and prints it to the posix standard output.
  * @filename:read the text filename
  * letters: the number of letters to print
- * Return: the actual number of letters or 0 if fails.
+ * Return: success the actual number of letters or 0 if fails.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 
