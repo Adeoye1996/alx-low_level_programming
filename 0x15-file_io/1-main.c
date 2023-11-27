@@ -12,6 +12,7 @@ int main(int ac, char **av)
 	int res;
 
 	if (ac != 3)
+
 	{
 		dprintf(2, "Usage: %s filename text\n", av[0]);
 		exit(1);
